@@ -1,0 +1,20 @@
+name: PcmApi
+author: CactusCata
+main: com.gmail.cactuscata.pcmapi.PcmApi
+version: 1.0.0
+
+commands:
+    tpotherserver:
+        description: Pemet de se teleporter sur un autre server
+        usage: /<command> [server]
+        permission: pcm.pcmapi.tpotherserver
+        
+    settag:
+        description: Met un prefix/suffix a un joueur
+        usage: /<command> [prefix|suffix|clear] [joueur]
+        permission: pcm.pcmapi.settag
+        
+    titleapi:
+        description: Envois un title/actionbar
+        usage: /<command> [title] [joueur] [before] [on] [after] [title<nl>subtitle]
+        permission: pcm.pcmapi.titleapi

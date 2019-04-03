@@ -1,0 +1,7 @@
+#Default config for PcmApi
+
+#On met -1 si on veut que rien ne se passse
+TimeToDisableWhitelist: 5
+
+#Active (true) ou non (false) l'affectation du grade dans le chat
+RankChat: false
